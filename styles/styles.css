@@ -232,3 +232,11 @@ a:hover {
 }
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-bar {
+    margin-top: 30px;
+    text-align: center;
+    padding-block: 30px;
+    background-color: #1C2B32;
+    color: white;
+}
