@@ -13,7 +13,6 @@ Table of Contents:
 /*
 Grijs: #899CA0
 Donkergroen: #1C2B32
-
  */
 
 /*////////////////////////
@@ -29,10 +28,6 @@ Donkergroen: #1C2B32
 
 .dev-class-1 {
     border: 2px solid red;
-}
-
-.dev-class-2 {
-    border: 2px solid forestgreen;
 }
 
 header {
@@ -94,14 +89,12 @@ a:hover {
 .header-title {
     font-weight: 700;
     font-size: 90px;
-    margin-block: 0;
     padding-top: 40px;
 }
 
 .header-text {
-    font-size: 12px;
-    margin: 0;
-    padding-bottom: 20px;
+    font-size: 14px;
+    padding-bottom: 30px;
 }
 
 #domein-input {
@@ -152,13 +145,13 @@ a:hover {
     font-size: 14px;
     position: absolute;
     top: 30px;
-    left: 200px;
+    left: 175px;
 }
 
 .testimonial-person {
     position: absolute;
     top: 105px;
-    left: 200px;
+    left: 175px;
 }
 
 #testimonial-image {
@@ -174,7 +167,7 @@ a:hover {
 .testimonial-quote-icon {
     position: absolute;
     top: 45px;
-    left: 150px
+    left: 125px
 }
 /*///////////// 3.3 Support /////////////*/
 
@@ -186,12 +179,12 @@ a:hover {
 
 .support-text {
     text-align: left;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 #button-contact {
     font-size: 14px;
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 20px 30px 20px 30px;
     background-color: #1C2B32;
     color: white;
@@ -224,7 +217,7 @@ a:hover {
 }
 
 .faq-title {
-    margin-bottom: 30px;
+    margin-block: 30px;
 }
 
 .faq-question:hover {
