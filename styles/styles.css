@@ -10,13 +10,22 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*
+Grijs: #899CA0
+Donkergroen: #1C2B32
+ */
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
 
+*{
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 /*////////////////////////
     2. Typography
