@@ -13,6 +13,7 @@ Table of Contents:
 /*
 Grijs: #899CA0
 Donkergroen: #1C2B32
+
  */
 
 /*////////////////////////
@@ -21,6 +22,9 @@ Donkergroen: #1C2B32
 
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid indianred;*/
 }
 
 .dev-class-1 {
@@ -56,7 +60,7 @@ h1 {
 }
 
 h2 {
-    padding-block: 0;
+    padding-block: 15px
 }
 
 a:link {
@@ -134,13 +138,44 @@ a:hover {
 .testimonial-container {
     display: inline-block;
     width: 100%;
-    padding: 100px;
+    height: 200px;
     box-shadow: 2px 4px 15px #899CA0;
     margin-block: 30px;
     border-radius: 10px;
+    text-align: left;
     position: relative;
 }
 
+.testimonial-quote {
+    padding-top: 20px;
+    width: 75%;
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+.testimonial-person {
+    position: absolute;
+    top: 105px;
+    left: 200px;
+}
+
+#testimonial-image {
+    width: 44px;
+    vertical-align: middle;
+}
+
+.testimonial-name {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.testimonial-quote-icon {
+    position: absolute;
+    top: 45px;
+    left: 150px
+}
 /*///////////// 3.3 Support /////////////*/
 
 .support-image {
@@ -151,10 +186,12 @@ a:hover {
 
 .support-text {
     text-align: left;
+    margin-top: 15px;
 }
 
 #button-contact {
     font-size: 14px;
+    margin-top: 15px;
     padding: 20px 30px 20px 30px;
     background-color: #1C2B32;
     color: white;
@@ -184,6 +221,10 @@ a:hover {
     color: white;
     padding: 20px;
     border-radius: 10px;
+}
+
+.faq-title {
+    margin-bottom: 30px;
 }
 
 .faq-question:hover {
