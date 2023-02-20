@@ -38,7 +38,6 @@ Donkergroen: #1C2B32
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    width: 1000px;
     color: #1C2B32;
 }
 
@@ -54,13 +53,18 @@ h1 {
 
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    width: 1000px;
+}
+
 .header-block {
     display: inline-block;
-    height: 500px;
-    width:100vw;
     margin: 0 auto;
     text-align: center;
     padding: 20px 0 250px 0;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    width: 100vw;
 }
 
 .header-title {
@@ -84,6 +88,11 @@ h1 {
     padding-right: 60px;
     border: 2px solid #1C2B32;
     border-radius: 30px 0 0 30px;
+    background: transparent;
+}
+
+#domein-input::placeholder {
+    color: #1C2B32;
 }
 
 button {
