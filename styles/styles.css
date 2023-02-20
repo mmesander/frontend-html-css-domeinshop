@@ -59,6 +59,13 @@ h2 {
     padding-block: 20px;
 }
 
+a:link {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
 /*////////////////////////
     3. Areas
 ////////////////////////*/
