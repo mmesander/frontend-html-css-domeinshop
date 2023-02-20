@@ -136,6 +136,22 @@ a:hover {
     position: relative;
 }
 
+.support-text {
+    text-align: left;
+}
+
+.button-contact {
+    font-size: 14px;
+    padding: 20px;
+    margin-left: 0;
+    background-color: #1C2B32;
+    color: white;
+    border: 2px solid #1C2B32;
+    border-radius: 30px;
+    position: absolute;
+    left: 120px;
+}
+
 /*///////////// 3.4 Faq /////////////*/
 
 
