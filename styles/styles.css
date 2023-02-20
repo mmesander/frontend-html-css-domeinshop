@@ -53,6 +53,11 @@ h1 {
     color: #1C2B32;
 }
 
+h2 {
+    text-align: center;
+    padding-block: 15px;
+}
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -68,6 +73,7 @@ h1 {
     padding: 20px 0 250px 0;
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
+    background-position: center;
     width: 100vw;
 }
 
