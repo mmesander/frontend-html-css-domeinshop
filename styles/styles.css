@@ -113,7 +113,7 @@ a:hover {
     color: #1C2B32;
 }
 
-.button-available {
+#button-available {
     font-size: 14px;
     padding: 15px;
     margin-left: -6px;
@@ -133,23 +133,21 @@ a:hover {
 .support-image {
     width: 100%;
     border-radius: 10px;
-    position: relative;
 }
 
 .support-text {
     text-align: left;
 }
 
-.button-contact {
+#button-contact {
     font-size: 14px;
-    padding: 20px;
-    margin-left: 0;
+    padding-block: 20px;
+    padding-inline: 25px;
+    margin-left: -860px;
     background-color: #1C2B32;
     color: white;
     border: 2px solid #1C2B32;
     border-radius: 30px;
-    position: absolute;
-    left: 120px;
 }
 
 /*///////////// 3.4 Faq /////////////*/
