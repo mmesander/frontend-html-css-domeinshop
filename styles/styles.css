@@ -56,7 +56,7 @@ h1 {
 }
 
 h2 {
-    padding-block: 20px;
+    padding-block: 0;
 }
 
 a:link {
@@ -76,20 +76,22 @@ a:hover {
 
 .header-block {
     display: inline-block;
-    margin: 0 auto;
+    margin-inline: 0 auto;
     text-align: center;
     padding: 20px 0 250px 0;
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
     width: 100vw;
+    height: 600px;
+    margin-bottom: 30px;
 }
 
 .header-title {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 90px;
     margin-block: 0;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .header-text {
@@ -101,8 +103,8 @@ a:hover {
 #domein-input {
     color: #1C2B32;
     font-size: 14px;
-    padding-block: 15px;
-    padding-left: 15px;
+    padding-block: 20px;
+    padding-left: 30px;
     padding-right: 60px;
     border: 2px solid #1C2B32;
     border-radius: 30px 0 0 30px;
@@ -115,7 +117,7 @@ a:hover {
 
 #button-available {
     font-size: 14px;
-    padding: 15px;
+    padding: 20px 30px 20px 30px;
     margin-left: -6px;
     background-color: #1C2B32;
     color: white;
@@ -129,13 +131,22 @@ a:hover {
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-
+.testimonial-container {
+    display: inline-block;
+    width: 100%;
+    padding: 100px;
+    box-shadow: 2px 4px 15px #899CA0;
+    margin-block: 30px;
+    border-radius: 10px;
+    position: relative;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
 .support-image {
     width: 100%;
     border-radius: 10px;
+    margin-top: 30px
 }
 
 .support-text {
@@ -144,7 +155,7 @@ a:hover {
 
 #button-contact {
     font-size: 14px;
-    padding: 20px 25px 20px 25px;
+    padding: 20px 30px 20px 30px;
     background-color: #1C2B32;
     color: white;
     border: 2px solid #1C2B32;
